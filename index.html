@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日占卜</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="bcground">
+        <div id="user_data">            
+            <p class="date">日期：<span></span></p>
+            <p class="user">使用者：<span></span></p>
+            <input type="text" size="11" class="user_input" >
+            <input type="submit" value="輸入" class="login_btn">
+        </div>
+        <div id="wizard">
+            <img src="img/light.png" alt="light" class="light">
+            <img src="img/wizard.gif" alt="wizard" class="wizard_img">
+            <div id="ball">
+                <img src="img/ball.png" alt="ball" class="ball_img">
+                <a href="javascript:void(0)" class="start">開始</a>
+            </div>            
+        </div>
+
+        <div id="result">
+            <div id="result_content">
+                <div class="content content01">
+                    <div class="content_wrap">
+                        <div class="item_row">
+                            <div class="item_left">工作運：</div>
+                            <div class="item_right">
+                                <div class="work star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="work star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="work star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="work star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="work star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item_row">
+                            <div class="item_left">桃花運：</div>
+                            <div class="item_right">
+                                <div class="love star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="love star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="love star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="love star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="love star_wrap">
+                                    <img src="/img/star.png" alt="star" class="star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item_row">
+                            <div class="item_left">金錢運：</div>
+                            <div class="item_right">
+                                <div class="money star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="money star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="money star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="money star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                                <div class="money star_wrap">
+                                    <img src="img/star.png" alt="star" class="star">
+                                </div>
+                            </div>
+                        </div>
+                        <span>*滿星五顆</span>
+                    </div>
+                    
+                    <div id="next">
+                        <input type="button" id="btn_next" value="下一頁">
+                    </div>
+                </div>
+                <div class="content content02">
+                    <div class="content02_wrap">
+                        <div class="img_wrap">
+                            <div class="title">
+                                <p>幸運色</p>
+                            </div>
+                            <div class="img_item img_item01"></div>
+                        </div>                        
+                        <div class="img_wrap">
+                            <div class="title">
+                                幸運方位
+                            </div>
+                            <div class="img_item img_item02"></div>
+                        </div>
+                        <div class="img_wrap">
+                            <div class="title">
+                                幸運數字
+                            </div>
+                            <div class="img_item img_item03"></div>
+                        </div>
+                    </div>
+                    <div id="finish">
+                        <input type="button" id="btn_finish" value="完成">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!-- <img src="" alt=""> -->
