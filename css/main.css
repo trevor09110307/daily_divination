@@ -19,14 +19,14 @@
         display: inline-block;
     }
     #user_data .user_input{
-        font-size: 1.2vw;
+        font-size: 5vw;
         color: #FCF7DB;
         background-color:transparent;
     }
     #user_data .login_btn{
         background-color: #FCF7DB;
         color: #204458;
-        font-size: 1vw;
+        font-size: 5vw;
     }
     #user_data p{
         font-size: 5vw;
