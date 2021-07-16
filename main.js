@@ -45,14 +45,21 @@ document.addEventListener('DOMContentLoaded',function()
             this.textContent = '占卜中'
             this.style.textShadow = '5px 5px 7px #204458'
             var light = document.querySelector('#wizard .light')
+
+            //點擊開始後的球體轉動動畫&球體後面的光芒閃耀的動畫
             light.style.opacity = '100%'
             light.style.transform = 'rotate(45deg) scale(1.5)'
-
             var ball = document.querySelector('.ball_img')
             var classes = ball.className.split(' ')
             var index = classes.indexOf('turn360')
             classes.push('turn360') 
             ball.className = classes.join(' ')
+
+            
+            //點擊開始後,為了防止使用者在動畫執行期間再次點擊開始，製造一個透明div擋在整個wizard前面
+            var wizard_block = document.createElement('div')
+            wizard_block.className = ('wizard_block')
+            document.getElementById('wizard').appendChild(wizard_block)
 
             //隨機產生星星數
             
@@ -170,11 +177,10 @@ document.addEventListener('DOMContentLoaded',function()
                 //將水晶球的字自"占卜中"改成""完成"
                 var star_btn = document.querySelector('.start')
                 star_btn.textContent = '完成'
-                star_btn.style.cursor = 'default'
                 
-                var wizard_block = document.createElement('div')
-                wizard_block.className = ('wizard_block')
-                document.getElementById('wizard').appendChild(wizard_block)
+                // var wizard_block = document.createElement('div')
+                // wizard_block.className = ('wizard_block')
+                // document.getElementById('wizard').appendChild(wizard_block)
         },false)
 
     },false)

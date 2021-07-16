@@ -173,8 +173,8 @@
         margin: 0 auto;
     }
     .content_wrap span{
-        font-size: .8vw;
-        color: #655441;
+        font-size: 4vw;
+        color: red;
     }
     #result .item_row{
         /* border: 1px solid red; */
