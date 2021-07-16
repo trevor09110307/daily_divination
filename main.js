@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded',function()
                 }, 1000);     
                 
                 
-                var text = document.createTextNode('距離下次占卜還有' + time_countdown) 
+                var text = document.createTextNode('距離明日占卜還有' + time_countdown) 
                 timecount_data.appendChild(text)
                 document.getElementById('user_data').appendChild(timecount_data)
                 
