@@ -137,7 +137,7 @@
         height: 100%;
     }
     .content02_wrap .title{
-        line-height: 3.7;
+        font-size: 3.7vw;
         width: 100%;
         height: 30%;
     }
@@ -170,7 +170,7 @@
     #result .content_wrap{
         text-align: right;
         width: 100%;
-        margin: 45% auto 0;
+        margin: 0 auto;
     }
     .content_wrap span{
         font-size: .8vw;
@@ -179,15 +179,17 @@
     #result .item_row{
         /* border: 1px solid red; */
         width: 100%;
-        height: 10vw;
+        height: 20vw;
         text-align: center;
         display: flex;
+        flex-direction: column;
     }
     #result .item_left{    
-        font-size: 1.7vw;
+        font-size: 3.7vw;
         line-height: 3;
-        width: 30%;
-        height: 100%;
+        text-align: left;
+        width: 100%;
+        height: 50%;
     }
     #result .item_right{
         width: 70%;
