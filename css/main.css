@@ -37,7 +37,7 @@
     #wizard{
         width: 60vw;
         position: absolute;
-        top: 45%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
