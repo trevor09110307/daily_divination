@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded',function()
                     window.location.reload();
                     storage.clear();
                 }
-                    document.querySelector('.timecount_data').textContent = '距離下次占卜還有' + time_countdown
+                    document.querySelector('.timecount_data').textContent = '距離明日占卜還有' + time_countdown
                 }, 1000);     
                 
                 
